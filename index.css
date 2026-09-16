@@ -1,0 +1,102 @@
+.geist-mono-regular{
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+    background-color: #282521;
+    width: 650px;
+    text-align: left;
+    margin: 50px auto;
+}
+
+h1 {
+    color: #EEA33F;
+    font-size: 30px;
+    font-family: "Geist Mono", monospace;
+    font-weight: 500;
+}
+
+h2 {
+    color: #F2E5BC;
+    font-size: 16px;
+    line-height: 0.5;
+    font-family: "Geist Mono", monospace;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: "Geist Mono", monospace;
+    font-weight: 500;
+}
+
+#top-section {
+    border: 2px solid #C9862D;
+    border-radius: 4px;
+    padding: 8px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#bottom-section {
+    border: 2px solid #C9862D;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding: 20px 30px;
+}
+
+
+.password-card {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #F2E5BC;
+    padding: 0px 15px 0px 20px;
+    gap: 16px;
+    border-radius: 4px;
+    color: #F2E5BC;
+    width: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-text{
+    word-break: break-all;
+}
+
+#generate-password-btn {
+    background-color: #EEA33F;
+    width: 100%;
+    padding:16px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    font-family: "Geist Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: #282521;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.copy-btn {
+    padding: 0px 0px 0px 0px;
+    background-color: #282521;
+    border: 0px solid #F2E5BC;
+    border-radius: 4px;
+    font-family: "Geist Mono", monospace;
+    font-weight: 500;
+    font-size: 25px;
+    color: #F2E5BC;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
