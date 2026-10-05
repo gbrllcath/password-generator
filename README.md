@@ -1,4 +1,4 @@
-# Retro Password Generator
+# Password Generator
 
 Retro terminal-themed password generator — inspired by amber CRT aesthetic.
 
